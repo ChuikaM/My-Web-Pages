@@ -1,0 +1,20 @@
+a.nav-link:hover
+{
+    color: white;
+    font-weight: bold;
+}
+
+.watch-trailer:hover
+{
+    background-color: gray;
+}
+
+.add-list:hover
+{
+    background-color: gray;
+}
+
+.card:hover
+{
+    filter: brightness(60%);
+}

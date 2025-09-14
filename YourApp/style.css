@@ -1,0 +1,102 @@
+body
+{
+    height: 100vh;
+}
+
+header
+{
+    height: 50vh;
+    background: linear-gradient(335deg, rgba(255,129,226,1) 10%, rgba(215,59,250,1) 25%, rgba(207,44,255,1) 32%, rgba(0,167,255,1) 100%);
+}
+
+@media (max-width: 768px)
+{
+    header
+    {
+        height: auto;
+        background: linear-gradient(335deg, rgba(255,129,226,1) 10%, rgba(215,59,250,1) 25%, rgba(207,44,255,1) 32%, rgba(0,167,255,1) 100%);
+    }
+}
+
+nav
+{
+    height: 8vh;
+    background-color:  rgba(229, 229, 229, 0.193);
+}
+
+main.welcome-content
+{
+    height: 42vh;
+}
+
+.welcome-content-text
+{
+    margin-inline: 3rem;
+}
+
+.button-layout
+{
+    width: 350px;
+}
+
+img.smartphone
+{
+    margin-inline: 3rem;
+    height: 70%;
+}
+
+a.nav-link
+{
+    color: white;
+    font-weight: 600;
+}
+
+.navbar .nav-item.active .nav-link,
+.navbar .nav-item .nav-link:active,
+.navbar .nav-item .nav-link:focus,
+.navbar .nav-item:hover .nav-link {
+    color: white;
+    border-bottom: solid 2px white;
+}
+
+a.active
+{
+    color: white;
+    text-decoration: underline;
+}
+
+footer
+{
+    height: 10vh;
+    background-color: gray;
+}
+
+p
+{
+    color:aliceblue;    
+}
+
+h1
+{
+    color: white;
+    font-size: calc(2rem + 1.5vw);
+    font-weight: bold;
+}
+
+.advantage
+{
+    color:gray;    
+}
+
+main.advantages-content
+{
+    height: 40vh;
+}
+
+@media (max-width: 768px)
+{
+    main.advantages-content
+    {
+        height: auto;
+    }
+}

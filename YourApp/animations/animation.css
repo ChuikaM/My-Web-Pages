@@ -1,0 +1,40 @@
+.button-layout > button
+{
+    width: 10rem;
+    height: 3rem;
+
+    border: none;
+    border-radius: 10px;
+
+    text-decoration: none;
+    color:blueviolet;
+    background-color: white;
+
+    animation-name: fadeOut;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.button-layout > button:hover
+{
+    animation-duration: 0.5s;
+    animation-name: fadeIn; 
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes fadeOut
+{
+    to
+    {
+        background-color:white;
+    }  
+}
+
+@keyframes fadeIn
+{
+    to
+    {
+        background-color:gray;
+    }  
+}

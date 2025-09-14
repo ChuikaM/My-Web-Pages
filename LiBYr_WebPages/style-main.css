@@ -1,0 +1,48 @@
+.card
+{
+    background-color: transparent;
+    border: 3px solid #8741E0;
+    border-radius: 0;
+    box-shadow: 0px 0px 4px 6px #9C6CD7;
+
+    width: 30%;
+
+    text-align: center;
+    color: white;
+
+    .card-header
+    {
+        display: flex;
+        justify-content: center;
+        .card-img-top
+        {
+            filter: brightness(0) invert(1);
+            width: 50%;
+            aspect-ratio: 1/1;
+        }
+    }
+}
+
+.background_features
+{
+    filter: brightness(0) invert(1);
+}
+
+.button_download
+{
+    transition: background-color 500ms;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+}
+
+.button_download:hover
+{
+    background-color: #c6c6c6;
+}

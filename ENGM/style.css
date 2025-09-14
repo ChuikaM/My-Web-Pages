@@ -1,0 +1,54 @@
+body
+{
+    background-image: url("img/background.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+
+nav
+{
+    background-color: rgba(var(--bs-tertiary-bg-rgb), 0.5); 
+}
+
+ul
+{
+    --bs-navbar-active-color: rgb(210, 177, 106);
+    --bs-navbar-hover-color: rgb(255, 211, 109);
+}
+
+h2, p
+{
+    color: white;
+}
+
+h2
+{
+    font-weight: bolder;
+    font-size: 5rem;
+}
+
+p
+{
+    font-size: 1.5rem;
+    margin: 2rem 0 2rem 0;
+}
+
+.container
+{
+    --bs-gap: 2rem;
+}
+
+.btn
+{
+    --bs-btn-font-weight: 600;
+    --bs-btn-padding-x: 2.5rem;
+    --bs-btn-border-radius: 0;
+    --bs-btn-border-width: 3px;
+}
+
+#btn-learn
+{
+    --bs-btn-bg: none;
+    --bs-btn-color: white;
+}

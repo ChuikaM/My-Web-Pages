@@ -1,0 +1,37 @@
+.button_download
+{
+    transition: background-color 500ms;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    img
+    {
+        height: 70%;
+        aspect-ratio: 1/1;
+    }
+}
+
+.button_download:hover
+{
+    background-color: #c6c6c6;
+}
+table
+{
+    box-shadow: 0px 0px 4px 4px #9C6CD7;
+    tr
+    {
+        color: white;
+        font-size: larger;
+        box-shadow: 0px 0px 4px 4px #9C6CD7;
+        td
+        {
+            padding: 1%;
+        }
+    }    
+}

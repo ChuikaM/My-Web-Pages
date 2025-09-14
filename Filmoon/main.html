@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta >
+    <title>Filmoon</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="animation/animation.css">
+  </head>
+  <body lang="en">
+    <img class="background" src="img/background.jpg" alt="">
+    <header>
+      <nav class="navbar align-items-center"> 
+        <div class="container-fluid">
+          <section class="d-flex align-items-center gap-5">
+            <a class="navbar-brand d-flex align-items-center" href="#">    
+              <i class="bi bi-list-nested"></i>
+              <h1 class="logo-text">Filmoon</h1>   
+            </a>
+            <ul class="navbar-nav d-flex flex-row gap-5">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Movies</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">My List</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+          </section>
+          <form class="d-flex" role="search">
+            <div class="input-group">
+              <div class="input-group-text">
+                <a href=""><i class="bi bi-search"></i></a>
+              </div>        
+              <input class="form-control me-2" type="search" placeholder="Search For Movies..." aria-label="Search">
+            </div>  
+          </form>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="d-flex justify-content-between">
+        <article class="film-content">
+          <section class="film-content-info d-flex flex-column justify-content-end px-5">
+            <h1 class="film-title">Spider Man:<br> Far From Home</h1>
+            <br>
+            <p>Comming Soon <i class="bi bi-three-dots-vertical"></i> Wednesday, June 3rd, 18:40</p>
+            <br>
+            <div class="button-layout">
+              <button class="watch-trailer">
+                <i class="bi bi-play-fill"></i>
+                WATCH TRAILER
+              </button>
+              <button class="add-list">
+                <i class="bi bi-plus-lg"></i>
+                ADD LIST
+              </button>
+            </div>
+            <br>
+          </section>
+          <section class="film-content-about">
+            <div class="row">
+              <section class="col">
+                <h4>CATEGORY</h4>
+                <p>Fantastic, Sci-Fi</p>
+              </section>
+              <section class="col">
+                <h4>STORYLINE</h4>
+                <p>Following the events of Avengers: Endgame, Spider-Man<br>must step up to take on new threats in a world that has<br> changed forever.</p>
+              </section>
+            </div>
+            <div class="row">
+              <section class="col">
+                <h4>DIRECTOR / WRITER</h4>
+                <p>Director: Jon Watts</p>
+                <p>Writers: Steve Ditko, Stan Lee, Chris Mc Kenna, Erik Sommers</p>
+              </section>
+              <section class="col">
+                <h4>STARS</h4>
+                <p>Tom Holland Anogurie Rice, Samuel L. Jackson, Zendaya,<br> Jon Favreau, Jake Gyllenhal, Marisa Tomei...</p>
+              </section>
+            </div>
+          </section>
+        </article>
+        <aside class="recomended-films d-none d-md-block">
+          <br><br><br>       
+          <section class="recomended-films-content">
+            <section>
+              <span>
+                <i class="bi bi-square-fill"></i>
+                <h4 class="d-inline">MEN IN BLACK</h4>
+                <p class="film-short-info">Lorem ipsum sit amet, consectetur adipiscing elit<br>sed do eiusmod tempor incididum ut labore.</p>
+              </span>
+            </section>
+            <section>
+              <a href="#">
+                <div class="card">
+                  <img src="img/men_in_black_international.webp" alt="">
+                  <div class="card-img-overlay">
+                    <h4 class="card-text">Men in Black : International</h4>
+                    <div class="d-flex justify-content-between">
+                      <p class="card-text">18 June 2019</p>
+                     <i class="bi bi-play-circle"></i>
+                    </div> 
+                  </div>
+                </div>
+              </a>
+            </section>
+            <br>
+            <section>
+              <span>
+                <i class="bi bi-square-fill"></i>
+                <h4 class="d-inline">SPIDER MAN: FAR FROM HOME</h4>
+                <p class="film-short-info">Lorem ipsum sit amet, consectetur adipiscing elit<br>sed do eiusmod tempor incididum ut labore.</p>
+              </span>
+            </section>
+            <section >
+              <a href="#">
+                <div class="card">  
+                    <img src="img/spider_man_far_from_home.jpg" alt="">
+                    <div class="card-img-overlay">
+                      <h4 class="card-text">Spider Man: Far From Home</h4>
+                      <div class="d-flex justify-content-between">
+                        <p class="card-text">18 June 2019</p>
+                        <i class="bi bi-play-circle"></i>
+                      </div> 
+                    </div>
+                </div>
+              </a>
+            </section>
+          </section>
+        </aside>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+body
+{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+footer
+{
+    text-align: center;
+    padding: 1%;
+    position: relative;
+    
+    z-index: 1;
+    background-color: purple;
+}
+
+p, h2, li, dt
+{
+    color: white;
+}
+
+a:not(footer > p > a)
+{
+    text-decoration: none;
+}
+
+.main_title
+{
+    font-weight: bolder;
+    color: white;
+}
+
+.nav_button
+{
+    transition: background-color 500ms, border-radius 500ms, margin-bottom 500ms, padding-bottom 500ms;
+    padding:1%;
+    background-color: #8741E0;
+    flex-grow:initial;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    height:50%;
+}
+
+.nav_button:hover
+{
+    background-color: #6b26c6;
+    border-radius: 0px;
+    margin-bottom: 5%;
+    padding-bottom:5%;
+}
+
+hr
+{
+    background-color: purple;
+    height: 4px;
+}

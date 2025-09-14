@@ -1,0 +1,55 @@
+#circle_background
+{
+  position: absolute;
+  background-color: #ffcb87;
+  aspect-ratio: 1/1;
+  width: 50%;
+  top: -45%;
+  left: 60%;
+  z-index: -100;
+}
+
+p
+{
+  color: gray
+}
+
+.nav-item > a
+{
+  text-decoration: none;
+  color: black;
+}
+
+h2 {
+  display: block;
+  margin-bottom: 20px;
+}
+
+#what_i_do_block, #awards_block
+{
+  background-color: white;
+}
+
+#experience_block
+{
+  background-color: #efffff;
+}
+
+.styled-trophy {
+  width: 50px;
+  height: auto;
+}
+
+.styled-icon {
+  width: auto;
+  height: 30px;
+}
+
+.custom-button {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  width: auto;
+  height: 35px;
+  text-align: center;
+}
